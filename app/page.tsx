@@ -215,11 +215,11 @@ const Portfolio: React.FC = () => {
               <div className="relative bg-white/5 backdrop-blur-xl rounded-3xl p-8 sm:p-12 border border-white/10">
                 <p className="text-gray-300 text-xl leading-relaxed mb-6">
                   I'm a passionate Software developer who thrives on turning complex problems into elegant, 
-                  intuitive solutions. My code doesn't just work—it tells a story.
+                  intuitive solutions. My code doesn't just work it tells a story.
                 </p>
                 <p className="text-gray-300 text-xl leading-relaxed">
                   With expertise spanning Next.js, React, TypeScript, and Node.js, I build applications 
-                  that don't just meet expectations—they exceed them. Every pixel, every interaction, 
+                  that don't just meet expectations they exceed them. Every pixel, every interaction, 
                   every line of code is crafted with purpose.
                 </p>
                 
