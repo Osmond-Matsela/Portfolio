@@ -175,8 +175,8 @@ const Portfolio: React.FC = () => {
             <div className="flex justify-center space-x-6 mb-12">
               {[
                 { Icon: Github, href: 'https://github.com/Osmond-Matsela' },
-                { Icon: Linkedin, href: 'www.linkedin.com/in/osmond-matsela' },
-                { Icon: Mail, href: '#' }
+                { Icon: Linkedin, href: 'https://www.linkedin.com/in/osmond-matsela' },
+                { Icon: Mail, href: 'mailto:osmond.creations@gmail.com' }
               ].map(({ Icon, href }, i) => (
                 <a 
                   key={i}
