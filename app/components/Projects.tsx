@@ -15,6 +15,13 @@ export default function Projects({Code,ExternalLink}: any) {
       tags: ["Next.js", "TypeScript", "NextAuth", "Firebase", "Tailwind CSS","Figma"],
       link: "https://www.moreko.co.za",
       gradient: "from-cyan-500 to-blue-500"
+    },
+    {
+      title: "BLOG IT",
+      description: "Blog website with interactive features and responsive design.",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Figma", "Prisma", "PostgreSQL" ,"framer-motion"],
+      link: "https://blog-osmond.netlify.app",
+      gradient: "from-cyan-500 to-blue-500"
     }
   ];
   return (
