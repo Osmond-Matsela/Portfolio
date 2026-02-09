@@ -37,7 +37,6 @@ const Portfolio: React.FC = () => {
           Github={Github}
           Linkedin={Linkedin}
           Mail={Mail}
-          ExternalLink={ExternalLink}
         />
         {/* About Section */}
         <About />
