@@ -8,8 +8,6 @@ import {
   Menu,
   X,
   Code,
-  Sparkles,
-  Zap,
 } from "lucide-react";
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
@@ -30,14 +28,7 @@ const Portfolio: React.FC = () => {
         <Navigation X={X} Menu={Menu} />
 
         {/* Hero Section */}
-        <Hero
-          Sparkles={Sparkles}
-          Code={Code}
-          Zap={Zap}
-          Github={Github}
-          Linkedin={Linkedin}
-          Mail={Mail}
-        />
+        <Hero Code={Code} Github={Github} Linkedin={Linkedin} Mail={Mail} />
         {/* About Section */}
         <About />
 

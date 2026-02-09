@@ -50,7 +50,7 @@ export default function Projects({ Code, ExternalLink }: ProjectProps) {
       <section id="projects" className="py-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-5xl sm:text-6xl font-black mb-16 text-center">
-            <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
               Featured Projects
             </span>
           </h2>
@@ -58,15 +58,15 @@ export default function Projects({ Code, ExternalLink }: ProjectProps) {
             {projects.map((project, index) => (
               <div key={index} className="group relative">
                 <div
-                  className={`absolute inset-0 bg-gradient-to-r ${project.gradient} opacity-0 group-hover:opacity-20 rounded-3xl blur-xl transition-all duration-500`}
+                  className={`absolute inset-0 bg-linear-to-r ${project.gradient} opacity-0 group-hover:opacity-20 rounded-3xl blur-xl transition-all duration-500`}
                 ></div>
                 <div className="relative h-full bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/10 group-hover:border-white/30 transition-all duration-300 hover:scale-105">
                   <div
-                    className={`w-12 h-12 bg-gradient-to-r ${project.gradient} rounded-xl mb-6 flex items-center justify-center`}
+                    className={`w-12 h-12 bg-linear-to-r ${project.gradient} rounded-xl mb-6 flex items-center justify-center`}
                   >
                     <Code size={24} className="text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+                  <h3 className="text-2xl font-bold mb-4 bg-linear-to-r from-white to-gray-400 bg-clip-text text-transparent">
                     {project.title}
                   </h3>
                   <p className="text-gray-400 mb-6 leading-relaxed">
@@ -87,7 +87,7 @@ export default function Projects({ Code, ExternalLink }: ProjectProps) {
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`inline-flex items-center font-semibold bg-gradient-to-r ${project.gradient} bg-clip-text text-transparent group-hover:gap-3 gap-2 transition-all`}
+                      className={`inline-flex items-center font-semibold bg-linear-to-r ${project.gradient} bg-clip-text text-transparent group-hover:gap-3 gap-2 transition-all`}
                     >
                       View Project <ExternalLink size={16} />
                     </a>
